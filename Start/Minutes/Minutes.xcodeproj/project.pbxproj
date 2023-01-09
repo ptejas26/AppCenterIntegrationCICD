@@ -10,6 +10,7 @@
 		18B7CBF7296BB2D600392ABE /* App definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF4296BB2D600392ABE /* App definition.png */; };
 		18B7CBF8296BB2D600392ABE /* CD definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF5296BB2D600392ABE /* CD definition.png */; };
 		18B7CBF9296BB2D600392ABE /* CI definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF6296BB2D600392ABE /* CI definition.png */; };
+		18B7CC01296BB7DE00392ABE /* MinutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7CC00296BB7DE00392ABE /* MinutesTests.swift */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -20,10 +21,22 @@
 		D3AA8CFF2037552800222B39 /* FileEntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8CFE2037552800222B39 /* FileEntryStore.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18B7CC02296BB7DE00392ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3048F1C202E2B2D00D45D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3048F23202E2B2D00D45D7E;
+			remoteInfo = Minutes;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		18B7CBF4296BB2D600392ABE /* App definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App definition.png"; sourceTree = "<group>"; };
 		18B7CBF5296BB2D600392ABE /* CD definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD definition.png"; sourceTree = "<group>"; };
 		18B7CBF6296BB2D600392ABE /* CI definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CI definition.png"; sourceTree = "<group>"; };
+		18B7CBFE296BB7DE00392ABE /* MinutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B7CC00296BB7DE00392ABE /* MinutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests.swift; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18B7CBFB296BB7DE00392ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3048F21202E2B2D00D45D7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B7CBFF296BB7DE00392ABE /* MinutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B7CC00296BB7DE00392ABE /* MinutesTests.swift */,
+			);
+			path = MinutesTests;
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +82,7 @@
 				18B7CBF5296BB2D600392ABE /* CD definition.png */,
 				18B7CBF6296BB2D600392ABE /* CI definition.png */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
+				18B7CBFF296BB7DE00392ABE /* MinutesTests */,
 				D3048F25202E2B2D00D45D7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D3048F24202E2B2D00D45D7E /* Minutes.app */,
+				18B7CBFE296BB7DE00392ABE /* MinutesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +115,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18B7CBFD296BB7DE00392ABE /* MinutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B7CC04296BB7DE00392ABE /* Build configuration list for PBXNativeTarget "MinutesTests" */;
+			buildPhases = (
+				18B7CBFA296BB7DE00392ABE /* Sources */,
+				18B7CBFB296BB7DE00392ABE /* Frameworks */,
+				18B7CBFC296BB7DE00392ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B7CC03296BB7DE00392ABE /* PBXTargetDependency */,
+			);
+			name = MinutesTests;
+			productName = MinutesTests;
+			productReference = 18B7CBFE296BB7DE00392ABE /* MinutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D3048F23202E2B2D00D45D7E /* Minutes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3048F36202E2B2D00D45D7E /* Build configuration list for PBXNativeTarget "Minutes" */;
@@ -108,10 +156,15 @@
 		D3048F1C202E2B2D00D45D7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Microsoft;
 				TargetAttributes = {
+					18B7CBFD296BB7DE00392ABE = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3048F23202E2B2D00D45D7E;
+					};
 					D3048F23202E2B2D00D45D7E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -132,11 +185,19 @@
 			projectRoot = "";
 			targets = (
 				D3048F23202E2B2D00D45D7E /* Minutes */,
+				18B7CBFD296BB7DE00392ABE /* MinutesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		18B7CBFC296BB7DE00392ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3048F22202E2B2D00D45D7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +214,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18B7CBFA296BB7DE00392ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B7CC01296BB7DE00392ABE /* MinutesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3048F20202E2B2D00D45D7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +235,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B7CC03296BB7DE00392ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3048F23202E2B2D00D45D7E /* Minutes */;
+			targetProxy = 18B7CC02296BB7DE00392ABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3048F2B202E2B2D00D45D7E /* Main.storyboard */ = {
@@ -187,6 +264,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		18B7CC05296BB7DE00392ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = LD.MinutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutes.app/Minutes";
+			};
+			name = Debug;
+		};
+		18B7CC06296BB7DE00392ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = LD.MinutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutes.app/Minutes";
+			};
+			name = Release;
+		};
 		D3048F34202E2B2D00D45D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -327,6 +453,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18B7CC04296BB7DE00392ABE /* Build configuration list for PBXNativeTarget "MinutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B7CC05296BB7DE00392ABE /* Debug */,
+				18B7CC06296BB7DE00392ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3048F1F202E2B2D00D45D7E /* Build configuration list for PBXProject "Minutes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
