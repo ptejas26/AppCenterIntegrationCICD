@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B7CBF7296BB2D600392ABE /* App definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF4296BB2D600392ABE /* App definition.png */; };
+		18B7CBF8296BB2D600392ABE /* CD definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF5296BB2D600392ABE /* CD definition.png */; };
+		18B7CBF9296BB2D600392ABE /* CI definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B7CBF6296BB2D600392ABE /* CI definition.png */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B7CBF4296BB2D600392ABE /* App definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App definition.png"; sourceTree = "<group>"; };
+		18B7CBF5296BB2D600392ABE /* CD definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD definition.png"; sourceTree = "<group>"; };
+		18B7CBF6296BB2D600392ABE /* CI definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CI definition.png"; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +50,9 @@
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				18B7CBF4296BB2D600392ABE /* App definition.png */,
+				18B7CBF5296BB2D600392ABE /* CD definition.png */,
+				18B7CBF6296BB2D600392ABE /* CI definition.png */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				D3048F25202E2B2D00D45D7E /* Products */,
 			);
@@ -135,6 +144,9 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				18B7CBF9296BB2D600392ABE /* CI definition.png in Resources */,
+				18B7CBF8296BB2D600392ABE /* CD definition.png in Resources */,
+				18B7CBF7296BB2D600392ABE /* App definition.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
